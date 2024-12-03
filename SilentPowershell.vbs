@@ -6,7 +6,7 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 
 ' Check if a script file was passed as an argument
 If WScript.Arguments.Count < 1 Then
-    WScript.Echo "This script needs te be placed besids the PS1 that needs to be executed"
+    WScript.Echo "This script needs te be placed beside the PS1 that needs to be executed"
     WScript.Echo "Usage: start.vbs <PowerShellScript.ps1> ""<Arguments>"""
     WScript.Quit
 End If
